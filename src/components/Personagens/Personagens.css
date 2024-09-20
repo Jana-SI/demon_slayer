@@ -1,8 +1,6 @@
-.containerPersonagens{
-    background-color: black;
-    color: white;
-}
-
-.containerPersonagens img{
-    width: 10%;
+.listaPersonagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

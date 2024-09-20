@@ -1,11 +1,11 @@
 import "./Personagem.css";
 
-const Personagem = ({nome, ...props}) => {
+const Personagem = ({personagem}) => {
   return (
-    <li className="listarPersonagem">
-      <h3>{nome}</h3>
-      <p>{props.titulo}</p>
-      <img src={props.imagem} alt={props.descricao_imagem} />
+    <li className="personagemItem">
+      <h3>{personagem.nome}</h3>
+      <p>{personagem.titulo}</p>
+      <img src={personagem.imagem} alt={personagem.descricao_imagem} />
     </li>
   );
 };

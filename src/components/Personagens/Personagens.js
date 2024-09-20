@@ -48,14 +48,12 @@ const Personagens = () => {
   ];
 
   return (
-    <div className="containerPersonagens">
-      <ul>
-        {Personagens.map((personagem) => (
+    <div className="personagens">
+      <ul className="listaPersonagens">
+        {Personagens.map((personagem, index) => (
           <Personagem
-            nome={personagem.nome}
-            titulo={personagem.titulo}
-            imagem={personagem.imagem}
-            descricao_imagem={personagem.descricao_imagem}
+            personagem={personagem}
+            key={index}
           />
         ))}
       </ul>
