@@ -5,7 +5,7 @@ import nezuko_img from "../imgs/nezuko.png";
 import zenitsu_img from "../imgs/zenitsu.png";
 import inosuke_img from "../imgs/inosuke.png";
 import Kanao_img from "../imgs/kanao.png";
-import genya_img from "../imgs/genya.jpg";
+import genya_img from "../imgs/genya.png";
 
 import Personagem from "../Personagem/Personagem";
 
