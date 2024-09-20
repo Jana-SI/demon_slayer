@@ -1,6 +1,10 @@
 .cabecalho{
+    height: 60px;
     background-color: #D32F2F;
     color: #000000;
     border-bottom: 2px solid #FFC107;
-    padding: 20px;
+    font-family: "Sawarabi Mincho", serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
 }
