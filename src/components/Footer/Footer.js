@@ -1,11 +1,10 @@
 import "./Footer.css";
 
 const Footer = () => {
+  // Rodapé e copyright
   return (
     <footer className="rodape">
-      {/* Rodapé da página */}
       <p>© 2024 Demon Slayer</p>
-      {/* Texto de copyright */}
     </footer>
   );
 };

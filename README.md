@@ -4,7 +4,10 @@
 
 ---
 
-    Página simples, onde é exibido alguns personagens do anime Demon Slayer, um trailer para o próximo filme e um formulário básico.
+   Página simples, onde é exibido:
+   - alguns personagens do anime Demon Slayer; 
+   - um trailer para o próximo filme;
+   - um formulário básico.
 
 ---
 

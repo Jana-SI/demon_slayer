@@ -21,7 +21,6 @@ const Formulario = () => {
     // Verifica se todos os campos estão preenchidos
     if (nome.trim() && email.trim() && mensagem.trim()) {
 
-      // Atualiza a mensagem de sucesso
       setMensagemSucesso("Mensagem Enviada com sucesso!");
 
       // Limpa os campos do formulário

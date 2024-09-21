@@ -9,11 +9,10 @@ import Kanao_img from "../imgs/kanao.png";
 import genya_img from "../imgs/genya.png";
 import muzan_img from "../imgs/muzan.png";
 
-// Importa o componente Personagem
 import Personagem from "../Personagem/Personagem";
 
-// Array contendo os dados dos personagens
 const Personagens = () => {
+  // Lista com nome, titulo e imagens dos personagens
   const Personagens = [
     {
       nome: "Tanjiro Kamado",
@@ -60,10 +59,11 @@ const Personagens = () => {
   ];
 
   return (
-    <div className="personagens"> {/* Container principal para a lista de personagens */}
-      <ul className="listaPersonagens"> {/* Lista não ordenada de personagens */}
+    // Renderiza um componente Personagem para cada item no array
+    <div className="personagens">
+      <ul className="listaPersonagens">
         {Personagens.map((personagem, index) => (
-          <Personagem personagem={personagem} key={index} /> // Renderiza um componente Personagem para cada item no array
+          <Personagem personagem={personagem} key={index} />
         ))}
       </ul>
     </div>
