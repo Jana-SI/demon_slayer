@@ -1,5 +1,6 @@
 import "./App.css";
 import Footer from "./components/Footer/Footer";
+import Formulario from "./components/Formulario/Formulario";
 import Header from "./components/Header/Header";
 import Personagens from "./components/Personagens/Personagens";
 
@@ -8,9 +9,10 @@ function App() {
     <div className="App">
       <Header />
       <div className="container">
-      <Personagens />
+        <Personagens />
+        <Formulario />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

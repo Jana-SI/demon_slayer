@@ -1,9 +1,10 @@
 import './Header.css';
+import logo from "../imgs/logo.png";
 
 const Header = () => {
     return (
         <header className="cabecalho">
-            <h1>Demon Slayer - Kimetsu no Yaiba</h1>
+            <img src={logo} alt="logo"/>
         </header>
     )
 }
