@@ -34,13 +34,14 @@ const Formulario = () => {
   };
 
   return (
-    <form className="form" onSubmit={Enviar}>{/* Formulário que chama a função Enviar ao ser submetido */}
-      <caption>Fale Conosco</caption>{/* Título do formulário */}
-      <Input name="Nome" id="nome" type="text" value={nome} onChange={(e) => setNome(e.target.value)}/>{/* Campo para o nome */}
-      <Input name="Email" id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />{/* Campo para o email */}
-      <Input name="Sua mensagem" id="text" type="text" value={mensagem} onChange={(e) => setMensagem(e.target.value)}/>{/* Campo para a mensagem */}
-      <Botao texto="Enviar" type="submit" />{/* Botão de envio */}
-      {mensagemSucesso && <p>{mensagemSucesso}</p>}{/* Exibe a mensagem de sucesso se existir */}
+    // Formulário que chama a função Enviar ao ser submetido, espera: nome, email e mensagem.
+    <form className="form" onSubmit={Enviar}>
+      <caption>Fale Conosco</caption>
+      <Input name="Nome" id="nome" type="text" value={nome} onChange={(e) => setNome(e.target.value)}/>
+      <Input name="Email" id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      <Input name="Sua mensagem" id="text" type="text" value={mensagem} onChange={(e) => setMensagem(e.target.value)}/>
+      <Botao texto="Enviar" type="submit" />
+      {mensagemSucesso && <p>{mensagemSucesso}</p>}
     </form>
   );
 };

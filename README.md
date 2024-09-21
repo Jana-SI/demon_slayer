@@ -1,6 +1,6 @@
 # Projeto Pagina do anime Demon Slayer - Kimetsu no Yaiba
 
-![projeto pagina de anime](/public/projeto.png)
+![projeto pagina de anime](/public/image.png)
 
 ---
 

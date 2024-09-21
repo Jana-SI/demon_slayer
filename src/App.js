@@ -15,7 +15,10 @@ function App() {
         {/* Container para os personagens e trailer */}
         <Personagens />
         {/* Renderiza a lista de personagens */}
-        <Trailer />
+        <Trailer>
+        <h2>Demon Slayer: Kimetsu no Yaiba Castelo Infinito</h2>
+        <p>Confira o que vem por aí!</p>
+        </Trailer>
         {/* Renderiza o trailer */}
       </div>
       <div className="form-container">
