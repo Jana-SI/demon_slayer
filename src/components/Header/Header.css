@@ -1,7 +1,7 @@
 .cabecalho{
-    height: 60px;
+    height: 65px;
     background-color: #FFC107;
-    border-bottom: 2px solid #D32F2F;
+    border-bottom: 5px solid #D32F2F;
     font-size: 30px;
     display: flex;
     align-items: center;
