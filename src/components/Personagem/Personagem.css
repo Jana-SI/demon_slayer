@@ -1,5 +1,4 @@
 .personagemItem {
-  flex: 1 1 calc(30% - 20px);
   margin: 10px;
   text-align: center;
   border: 5px solid #d32f2f;
@@ -7,8 +6,16 @@
 }
 
 .personagemItem img {
-    width: 100px;
-    height: 100px; 
-    object-fit: cover;
-    object-position: top;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  filter: drop-shadow(0 0 10px #d32f2f);
+}
+
+.personagemItem h3,
+.personagemItem p {
+  background-color: #d32f2f;
+  color: #000000;
+  padding: 10px;
 }

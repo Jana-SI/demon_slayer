@@ -5,6 +5,7 @@ const Header = () => {
     return (
         <header className="cabecalho">
             <img src={logo} alt="logo"/>
+            <h2>Bem vindo a pagina de Demon Slayer - Kimetsu no Yaiba</h2>
         </header>
     )
 }

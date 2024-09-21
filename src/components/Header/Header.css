@@ -5,6 +5,7 @@
     font-size: 30px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .cabecalho img{
@@ -12,4 +13,9 @@
     height: 50px; 
     object-fit: cover;
     object-position: top;
+}
+
+.cabecalho h2{
+    margin-right: 20px;
+    color: #000000;
 }
