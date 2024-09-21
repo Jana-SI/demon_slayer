@@ -8,3 +8,10 @@
 .form p {
   color: #ffffff;
 }
+
+.form caption{
+  display: inline-flex;
+  border-bottom: 5px solid #d32f2f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

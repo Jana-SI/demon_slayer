@@ -3,6 +3,7 @@
   text-align: center;
   border: 5px solid #d32f2f;
   border-radius: 10px;
+  transition: transform 0.3s ease; /* Suaviza o efeito de aumento */
 }
 
 .personagemItem img {
@@ -18,4 +19,9 @@
   background-color: #d32f2f;
   color: #000000;
   padding: 10px;
+}
+
+/* Efeito de hover para aumentar o item */
+.personagemItem:hover {
+  transform: scale(1.2); /* Aumenta todo o item */
 }

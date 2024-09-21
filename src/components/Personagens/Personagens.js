@@ -1,5 +1,6 @@
 import "./Personagens.css";
 
+// Importa as imagens dos personagens
 import tanjiro_img from "../imgs/tanjiro.png";
 import nezuko_img from "../imgs/nezuko.png";
 import zenitsu_img from "../imgs/zenitsu.png";
@@ -8,8 +9,10 @@ import Kanao_img from "../imgs/kanao.png";
 import genya_img from "../imgs/genya.png";
 import muzan_img from "../imgs/muzan.png";
 
+// Importa o componente Personagem
 import Personagem from "../Personagem/Personagem";
 
+// Array contendo os dados dos personagens
 const Personagens = () => {
   const Personagens = [
     {
@@ -35,16 +38,18 @@ const Personagens = () => {
       titulo: "Caçador de Onis",
       imagem: inosuke_img,
       descricao_imagem: "imagem do Inosuke",
-    }, {
-        nome: "Kanao Tsuyuri",
-        titulo: "Caçadora de Onis",
-        imagem: Kanao_img,
-        descricao_imagem: "imagem da Kanao"
-    },{
-        nome: "Genya Shinazugawa",
-        titulo: "Caçadora de Onis",
-        imagem: genya_img,
-        descricao_imagem: "imagem do Genya"
+    },
+    {
+      nome: "Kanao Tsuyuri",
+      titulo: "Caçadora de Onis",
+      imagem: Kanao_img,
+      descricao_imagem: "imagem da Kanao",
+    },
+    {
+      nome: "Genya Shinazugawa",
+      titulo: "Caçadora de Onis",
+      imagem: genya_img,
+      descricao_imagem: "imagem do Genya",
     },
     {
       nome: "Muzan Kibutsuji",
@@ -55,10 +60,10 @@ const Personagens = () => {
   ];
 
   return (
-    <div className="personagens">
-      <ul className="listaPersonagens">
+    <div className="personagens"> {/* Container principal para a lista de personagens */}
+      <ul className="listaPersonagens"> {/* Lista não ordenada de personagens */}
         {Personagens.map((personagem, index) => (
-          <Personagem personagem={personagem} key={index} />
+          <Personagem personagem={personagem} key={index} /> // Renderiza um componente Personagem para cada item no array
         ))}
       </ul>
     </div>
